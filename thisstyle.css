@@ -1,0 +1,28 @@
+button {
+    color:black;
+    background-color: white;
+    display: inline;
+    padding:5px;
+    margin-top: auto;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+h1,button:hover {
+    color:greenyellow;
+    background-color: indigo;
+    display: inline;
+    padding:5px;
+    margin-top: auto;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+body{
+    background-color: skyblue;
+}
+p {
+    background-color: red;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 10px;
+    display: inline-table;
+}
