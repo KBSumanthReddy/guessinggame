@@ -12,6 +12,7 @@ do{
         alert("you guessed correct");
         alert("your score is")
         alert(100-n);
+        document.write("your score is ",100-n);
     }
     else{
         alert("input is wrong,try again");
