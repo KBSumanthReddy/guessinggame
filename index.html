@@ -5,20 +5,25 @@
     <link href="thisstyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div id="head">
-    <h1 style="font-size: 75px;">Guessing game</h1><br><br>
-    <button style="font-size:30px;cursor: pointer;" class="GG"onclick="window.location.href = 'old.html';">
-		Start Game
-	</button><br><br>
-    <p>
-        * Click on Start Game button to Start the game.<br><br>
-        * This game consists of one number between 0 and 100 as correct number<br><br>
-        * You have to guess the numbers until the correct answer strikes<br><br>
-        * wrong guesses leads to reduction of marks<br><br>
-        * system says whether the number you guessed is greater or lesser than actual answer<br><br>
-    </p>
-    <h3 style="display:table;background-color:blue;font-size: 25px;margin:50px;border-radius: 10px;">ALL THE BEST</h3>
+    <div id="body">   
+        <h1>Guessing game</h1><br><br>
+        <input type="text" id="score"></input><br><br>
+        <p id="para"></p>
+        <button id="button" type="button" onclick='game()'>
+		    Check
+	    </button><br>
+        <p id="instructions">
+            * click the check button to verify that your guess was accurate<br><br>
+            * One number between 0 and 100 serves as the proper number for this game<br><br>
+            * You must guess the numbers until the correct answer is revealed<br><br>
+            * Marks are deducted for incorrect guesses<br><br>
+            * The system indicates whether your guess was greater or lesser than the correct answer<br><br>
+            * You have ten chances to correctly guess the response<br><br>
+            * The number of times you tried to find the solution determines your score
+        </p>
+        <h3><i>ALL THE BEST</i></h3>
     </div>
+    <script src="external.js"></script>
 </body>
 
 </script>
