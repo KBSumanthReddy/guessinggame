@@ -1,28 +1,48 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+}
+#score{
+    width: 40vw;
+    height: 10vh;
+    font-size: 5vh;
+    border-radius: 10px;
+    background-color: white;
+}
 button {
+    width: 15vw;
+    height: 10vh;
     color:black;
     background-color: white;
     display: inline;
-    padding:5px;
-    margin-top: auto;
-    margin-left: 50px;
+    text-align: center;
     border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
 }
-h1,button:hover {
+button:hover{
     color:greenyellow;
     background-color: indigo;
-    display: inline;
+}
+h1 {
+    color:greenyellow;
+    background-color: indigo;
     padding:5px;
-    margin-top: auto;
-    margin-left: 50px;
     border-radius: 15px;
+    font-size: 75px;
+    margin: auto;
 }
-body{
-    background-color: skyblue;
+h3 {
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 100px;
+    background-color: blue;
+    margin: auto;
 }
-p {
+#instructions {
+    width: 37vw;
+    height: 25vh;
     background-color: red;
-    padding: 5px;
-    margin: 50px;
     border-radius: 10px;
     display: inline-table;
 }
