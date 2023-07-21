@@ -9,7 +9,7 @@ body{
     border-radius: 10px;
     background-color: white;
 }
-button {
+#btn {
     width: 15vw;
     height: 10vh;
     color:black;
@@ -20,10 +20,20 @@ button {
     font-size: 30px;
     cursor: pointer;
 }
-button:hover{
+#btn:hover{
     color:greenyellow;
     background-color: indigo;
 }
+#btn1,a{
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    color: yellow;
+    width: 7.5vw;
+    height: 5vh;
+    margin-top: 8px;
+    border-radius: 7.5px;
+}
+
 h1 {
     color:greenyellow;
     background-color: indigo;
