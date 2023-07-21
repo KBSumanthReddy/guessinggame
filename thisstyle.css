@@ -26,7 +26,7 @@ body{
     background-color: indigo;
 }
 
-#btn1,a{
+#btn1{
     text-decoration: none;
     background-color: darkgoldenrod;
     color: yellow;
@@ -34,6 +34,9 @@ body{
     height: 5vh;
     margin-top: 8px;
     border-radius: 7.5px;
+}
+#btn1:hover{
+    background-color: indigo;
 }
 
 h1 {
